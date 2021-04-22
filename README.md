@@ -49,13 +49,35 @@ And with that your items and metadata are ready to go!  In the future if you dec
 
 Now that your items and metadata are all set, the next task it to set up your sites settings.  The settings for your site are controlled by a special file called \_config.yml.  This file can be found on the home page of your repository.  Click on the \_config.yml file to be taken to the file viewer and then click on the pencil icon on the right-hand side to open the file edit view.  Now you will work your way through each of the settings and make adjustments as needed on the lines that don't start with a hashtag (\#):
 
-- "url"  This setting points Collection Builder to your GitHub account.  The format is https://YOURGITHUBNAME.github.io.  An example of what this line will look like is: 
+URL Settings
+
+- "url"  This setting points Collection Builder to your GitHub pages base url.  The format is https://YOURGITHUBNAME.github.io.  An example of what this line will look like is: 
      - url: https://BrockDSL.github.io
 - "baseurl"  This setting points Collection Builder to the repository that your exhibit is in.  All you need to do here is copy the name of your repository (including capital letters and special characters) then put a / in front of it.  An example of what this line will look like is:
-     - baseurl: /Digital_Project_Showcase
-- sdf
+     - baseurl: /Demo_Exhibit
+- "source-code"  This setting is filled with the url to the main page of your GitHub repository.  An example of what this line will look like is: 
+     - source-code: https://github.com/BrockDSL/Demo_Exhibit
 
+Site Level Settings
 
+- "title"  This is the title of your exhibit as it will be displayed on the home page of your site.  Pick a name that makes sense and type it as you want it to be show (No need to add hyphens or underscore here).  An example of what this line will look like is: 
+     - title: My Amazing Demo Exhibit
+
+- "tagline"  This is the short line of text that will appear at the top of some pages on your site.  An example of what this line will look like is:
+     - tagline: A showcase of all my favorite things 
+
+- "description"  This is the short description of your exhibit that can show up in search results.  This should be in quotation marks and be kept to under 160 characters to keep things tidy.  An example of what this line will look like is: 
+     - description: "This demo exhibit is full of my favorite things that I want to share with the world"
+
+- "author"  This is the spot where you put your GitHub name so anyone who looks at the exhibit knows who made it.  An example of what this line will look like is: 
+     - author: BrockDSL
+
+Collection Setting
+
+- "metadata"  This is where you let Collection Builder know the name of the file containing your metadata (use the name of the file without the .csv at the end).  An example of what this line will look like is: 
+     - metadata: metadatafilename
+
+And thats all of the settings!  If you want you can add google analytics to your exibit by entering you google analytics ID but other than that you can leave everything else as it is.
 
 
 
