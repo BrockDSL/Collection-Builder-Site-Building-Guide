@@ -23,8 +23,9 @@ The next thing you need to do is prepare your content that will be displayed in 
 
 1. Start by either creating your own csv file (In Excel, Google Sheets, etc) or by downloading the template from [HERE](https://brocku-my.sharepoint.com/:f:/g/personal/dbrett_brocku_ca/EpNSItFDGLNEmeV6FTtwC1UBiDJ_otCzUyVWZa4_9Emipw?e=0ROcBg).
 2. Next you will decide what metadata fields you will include.  There are four fields that you MUST include in order for Collection Builder to work.  They are: 
-     - objectid ()
-4. toer
+     - objectid (A unique identifier for each item)
+     - title (This is a descriptive name for the item)
+     - format (This describes what type of media the item is using [MIME type standards](https://www.iana.org/assignments/media-types/media-types.xhtml). Some of the most commonly used fortmats are image/jpeg, application/pdf, audio/mp3, video/mp4)
 
 
 
