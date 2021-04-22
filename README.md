@@ -1,3 +1,5 @@
+# Welcome!
+
 Welcome to the Collection Builder Site Building Guide!  This guide will walk you through the steps required to build your very own basic Collection Builder site using GitHub pages.  In order to follow through this tutorial, you will need:
 
 1. A GitHub account
