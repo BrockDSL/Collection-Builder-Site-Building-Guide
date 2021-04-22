@@ -35,11 +35,16 @@ The next thing you need to do is prepare your content that will be displayed in 
 4. Feel free to add any other metadata fields that you think may be relevant (description, creator, language, etc) keeping in mind that field names must be in lowercase and not contain any characters other than letters and numbers (no spaces allowed!).
 5. Fill in the information for all of your items and them save your file.  (Make sure not to leave any fields blank and that the name for your csv file does not include any spaces)
 6. Now that you have a fully prepped metadata file to go along with all of the item you want to exhibit, you will need to get everything onto GitHub.
-     - For the metadata file, you will go to the main page of your GitHub repository and click on the \_data folder
+     - For the metadata file, you will go to the main page of your GitHub repository and click on the "\_data" folder.  Next you will click the "Add file" dropdown in the top right and select "Upload files".  Now you can either drag your metadata file into the box on the page or you can click the "choose your files" option to open a file explorer window to find and select your file.  Once you have added your metadata file (the name of the file will appear below the box on the screen), click on the green "Commit Changes" button at the bottom of the page.
+     - For your images, pdf's and other items that were recorded in the metadata file, you will first click on the "objects" folder from the main page of your repository.  Next, click on the "Add file" dropdown in the top right and select "Upload files".  Now you can either drag your files into the box on the page or you can click the "choose your files" option to open a file explorer window to find and select your files.  Once you have added all of your files, click on the green "Commit Changes" button at the bottom of the page.
 
+And with that your items and metadata are ready to go!  In the future if you decide you want to add any more items you simply have to adjust the metadata file and add the new item to the objects folder and it will appear on your exhibit!
 
+# Step 3 - Supply your Site Settings
 
+Now that your items and metadata are all set, the next task it to set up your sites settings.  The settings for your site are controlled by a special file called \_config.yml.  This file can be found on the home page of your repository.  Click on the \_config.yml file to be taken to the file viewer and then click on the pencil icon on the right-hand side to open the file edit view.  Now you will work your way through each of the settings and make adjustments as needed on the lines that don't start with a hashtag (\#):
 
+- 
 
 
 
