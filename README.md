@@ -77,7 +77,30 @@ Collection Setting
 - "metadata"  This is where you let Collection Builder know the name of the file containing your metadata (use the name of the file without the .csv at the end).  An example of what this line will look like is: 
      - metadata: metadatafilename
 
-And thats all of the settings!  If you want you can add google analytics to your exibit by entering you google analytics ID but other than that you can leave everything else as it is.
+Once you are happy with all of the changes you have made, click on the green "Commit Changes" button at the bottom of the page.
+
+And thats all of the top level site settings!  If you want you can add google analytics to your exibit by entering you google analytics ID but other than that you can leave everything else as it is.
+
+---
+
+# Step 4 - Adding some About Attributes
+
+So with the settings established you are just about ready for the big reveal!  The last thing you are going to do before making your site live and taking a look at it is to add some information to the about page.  From the main page of your repository, click on the "pages" folder.  From here you will open the file called about.md and click the pencil on the right-hand side to start editing.
+
+This page is written in a language called markdown and may look a bit alarming if you are not familiar with the markdown syntax.  But don't fear!  Most of whats on this page can be ignored.  Make sure that you leave everything on lines 1-14 as is, after that you can do whatever you want!  The section from lines 15-23 is the part that you will remove and replace with whatever content that you want.  The bit of code at the end will add a section to the end of your about page that describes all of the advanced features that you can add to the page so if you are interested in these features, leave lines 24-26 until after your site goes live.
+
+So lets get some info added to this page:
+
+1. Delete everything from lines 15-23 (or from lines 15 to the bottom if you don't want the advance features text on your about page)
+2. In the space you just made start adding some text about your exhibit.  If you want a header you can use the markdown syntax of ## YOUR HEADER.  For more advanced markdown features like lists and bullet points check out the [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+3. Once you are happy with your About page text then click the green "Commit Changes" button at the bottom of the page.
+
+---
+
+# Step 5
+
+
+
 
 
 
