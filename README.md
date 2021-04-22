@@ -8,7 +8,7 @@ Welcome to the Collection Builder Site Building Guide!  This guide will walk you
 
 Once you have your account and materials ready you can get started.
 
-</br>
+---
 
 # Step 1 - Get your Git in Gear
 
@@ -18,6 +18,7 @@ To copy the contents of the repository, click on the green "Use this template" b
 
 Just like that you now have your very own repository with all of the code needed to build a Collection Builder Exhibit!
 
+---
 
 # Step 2 - Make and Manage your Metadata
 
@@ -41,6 +42,8 @@ The next thing you need to do is prepare your content that will be displayed in 
      - For your images, pdf's and other items that were recorded in the metadata file, you will first click on the "objects" folder from the main page of your repository.  Next, click on the "Add file" dropdown in the top right and select "Upload files".  Now you can either drag your files into the box on the page or you can click the "choose your files" option to open a file explorer window to find and select your files.  Once you have added all of your files, click on the green "Commit Changes" button at the bottom of the page.
 
 And with that your items and metadata are ready to go!  In the future if you decide you want to add any more items you simply have to adjust the metadata file and add the new item to the objects folder and it will appear on your exhibit!
+
+---
 
 # Step 3 - Supply your Site Settings
 
