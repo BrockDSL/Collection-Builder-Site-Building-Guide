@@ -22,10 +22,9 @@ Just like that you now have your very own repository with all of the code needed
 The next thing you need to do is prepare your content that will be displayed in your Collection Builder Exhibit.  The most important part of your entire site is the metadata csv file.  This is the file that Collection Builder will use to build all of the item pages, visualizations, and more.  The structure of the metadata file is very impotant as there are some fields that are absolutely required in order for your site to work.  The steps below will help you build a clean, functional metadata file.
 
 1. Start by either creating your own csv file (In Excel, Google Sheets, etc) or by downloading the template from [HERE](https://brocku-my.sharepoint.com/:f:/g/personal/dbrett_brocku_ca/EpNSItFDGLNEmeV6FTtwC1UBiDJ_otCzUyVWZa4_9Emipw?e=0ROcBg).
-2. Next you will decide what metadata fields you will include.  There are four fields that you MUST include in order for Collection Builder to work.  They are:
-- one 
-- two
-3. toer
+2. Next you will decide what metadata fields you will include.  There are four fields that you MUST include in order for Collection Builder to work.  They are: 
+     - objectid ()
+4. toer
 
 
 
