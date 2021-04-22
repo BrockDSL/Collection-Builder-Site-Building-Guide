@@ -8,6 +8,8 @@ Welcome to the Collection Builder Site Building Guide!  This guide will walk you
 
 Once you have your account and materials ready you can get started.
 
+</br>
+
 # Step 1 - Get your Git in Gear
 
 The first step to building a Collection Builder site using GitHub pages is to clone all of the code that works behind the scenes to turn your metadata into an exhibit.  To do this, go to https://github.com/CollectionBuilder/collectionbuilder-gh.  You will see a repository containing all sorts files and folders that make up Collection Builder.  What you want to do is create a repository of your own and copy all of those files into it.  Luckily our friends on the Collection Builder team have made this very easy by turning their repository into a template that can be copied easily.
