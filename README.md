@@ -44,7 +44,7 @@ And with that your items and metadata are ready to go!  In the future if you dec
 
 Now that your items and metadata are all set, the next task it to set up your sites settings.  The settings for your site are controlled by a special file called \_config.yml.  This file can be found on the home page of your repository.  Click on the \_config.yml file to be taken to the file viewer and then click on the pencil icon on the right-hand side to open the file edit view.  Now you will work your way through each of the settings and make adjustments as needed on the lines that don't start with a hashtag (\#):
 
-- 
+- "url" This setting points Collection Builder to your GitHub account.  The format is https://YOURGITHUBNAME.github.io.  An example of what this line will look like is: url: https://BrockDSL.github.io 
 
 
 
