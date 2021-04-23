@@ -2,7 +2,7 @@
 
 Welcome to the Collection Builder Site Building Guide!  This guide will walk you through the steps required to build your very own basic Collection Builder site using GitHub pages.  In order to follow through this tutorial, you will need:
 
-1. A GitHub account (Make one [HERE](github.com/join) if you don't have one already)
+1. A GitHub account (Make one [HERE](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) if you don't have one already)
 2. Some content that you want to exhibit (jpeg's, pdf's, mp3 files, mp4 files, etc.)
 3. Metadata for each of those items
 
