@@ -93,13 +93,15 @@ So lets get some info added to this page:
 
 1. Delete everything from lines 15-23 (or from lines 15 to the bottom if you don't want the advance features text on your about page)
 2. In the space you just made start adding some text about your exhibit.  If you want a header you can use the markdown syntax of ## YOUR HEADER.  For more advanced markdown features like lists and bullet points check out the [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
-3. Once you are happy with your About page text then click the green "Commit Changes" button at the bottom of the page.
+3. Once you are happy with your About page text (you can always come back and change it later) then click the green "Commit Changes" button at the bottom of the page.
 
 ---
 
-# Step 5
+# Step 5 -
 
+Now it time to make your site live and take a look at it!  Go back to the main page of your repository and click on the settings tab in the top menu.  There are many different settings in a GitHub repository and the one we want is called "Pages".  In the menu on the left click on "Pages" to open up the GitHub Pages settings.  You will see a section called "Source" with a dropdown button that says "None".  Open this dropdown and select "main" then click the save button.  You will see a message letting you know that your site is being built and the address that you can find it at.  This process can take a minute or two so go grab a snack or a glass of water and then when you come back go to the web adress for your site.
 
+Welcome to your exhibit!  With this you have built a full, functioning, exhibit site that contains all of your items and metadata.  If you are happy with how it all looks then congratulations!  You are done!  However if you want to make some more custom adjustments to the site, take a look at the "Theme File", "Customize", and "Finish" sections of the [official Collection Builder Documentation](https://collectionbuilder.github.io/docs/theme.html) to learn about all of the different adjustments you can make to your site.
 
 
 
