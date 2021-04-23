@@ -97,7 +97,7 @@ So lets get some info added to this page:
 
 ---
 
-# Step 5 -
+# Step 5 - Prepping Pages for Propagation
 
 Now it time to make your site live and take a look at it!  Go back to the main page of your repository and click on the settings tab in the top menu.  There are many different settings in a GitHub repository and the one we want is called "Pages".  In the menu on the left click on "Pages" to open up the GitHub Pages settings.  You will see a section called "Source" with a dropdown button that says "None".  Open this dropdown and select "main" then click the save button.  You will see a message letting you know that your site is being built and the address that you can find it at.  This process can take a minute or two so go grab a snack or a glass of water and then when you come back go to the web adress for your site.
 
