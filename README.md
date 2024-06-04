@@ -26,17 +26,17 @@ The next thing you need to do is prepare your content that will be displayed in 
 
 1. Start by either creating your own csv file (In Excel, Google Sheets, etc) or by downloading the template from [HERE](https://brocku-my.sharepoint.com/:f:/g/personal/dbrett_brocku_ca/EpNSItFDGLNEmeV6FTtwC1UBiDJ_otCzUyVWZa4_9Emipw?e=0ROcBg).
 2. Next you will decide what metadata fields you will include.  You can add as many fields as you want to your metadata file but there are four fields that you MUST include in order for Collection Builder to work.  They are: 
-     - objectid (A unique identifier for each item that cannot contain space or special characters)
+     - objectid (A unique identifier for each item that **cannot contain spaces or special characters**)
      - title (This is a descriptive name for the item)
      - format (This describes what type of media the item is using [MIME type standards](https://www.iana.org/assignments/media-types/media-types.xhtml). Some of the most commonly used fortmats are image/jpeg, application/pdf, audio/mp3, video/mp4)
-     - filename (this is the name of the item that the metadata is for.  This field must match perfectly to the name of the file eg. demo1.jpg or analysis1.pdf and cannot contain special characters or spaces so make sure your filenames also adhere to this rule)
+     - filename (this is the name of the item that the metadata is for.  **This field must match perfectly to the name of the file eg. demo1.jpg or analysis1.pdf and cannot contain special characters or spaces** so make sure your filenames also adhere to this rule)
 3. In addition to the four mandatory fields there are certain fields that need to be included if you want to use some of the most interesting functions of Collection builder.  Each of these functions represent a page on your collection builder site.
      - The Map Page.  In order to use the map page feature of Collection builder you will need to include fields for latitude and longitude in your metadata file.
-     - The Timeline Page.  In order to use the timeline page feature of Collection Builder you will need to include a date field (date format can be yyyy, yyyy-mm, or yyyy-mm-dd)
+     - The Timeline Page.  In order to use the timeline page feature of Collection Builder you will need to include a date field (**date format can be yyyy, yyyy-mm, or yyyy-mm-dd**)
      - The Subject Wordcloud page.  In order to use the subject wordcloud page feature of Collection Builder you will need to include a subject field.  Subjects can be anything you want and you can assign multiple subjects to an item by seperating them with a semicolon (;).
      - The Location Wordcloud Page .  In order to use the location wordcloud page feature of Collection Builder you will need to include a location field.
-4. Feel free to add any other metadata fields that you think may be relevant (description, creator, language, etc) keeping in mind that field names must be in lowercase and not contain any characters other than letters and numbers (no spaces allowed!).
-5. Fill in the information for all of your items and them save your file.  (Make sure not to leave any fields blank and that the name for your csv file does not include any spaces)
+4. Feel free to add any other metadata fields that you think may be relevant (description, creator, language, etc) keeping in mind that **field names must be in lowercase and not contain any characters other than letters and numbers (no spaces allowed!).**
+5. Fill in the information for all of your items and them save your file.  **(Make sure not to leave any fields blank and that the name for your csv file does not include any spaces)**
 6. Now that you have a fully prepped metadata file to go along with all of the item you want to exhibit, you will need to get everything onto GitHub.
      - For the metadata file, you will go to the main page of your GitHub repository and click on the "\_data" folder.  Next you will click the "Add file" dropdown in the top right and select "Upload files".  Now you can either drag your metadata file into the box on the page or you can click the "choose your files" option to open a file explorer window to find and select your file.  Once you have added your metadata file (the name of the file will appear below the box on the screen), click on the green "Commit Changes" button at the bottom of the page.
      - For your images, pdf's and other items that were recorded in the metadata file, you will first click on the "objects" folder from the main page of your repository.  Next, click on the "Add file" dropdown in the top right and select "Upload files".  Now you can either drag your files into the box on the page or you can click the "choose your files" option to open a file explorer window to find and select your files.  Once you have added all of your files, click on the green "Commit Changes" button at the bottom of the page.
@@ -60,7 +60,7 @@ URL Settings
 
 Site Level Settings
 
-- "title"  This is the title of your exhibit as it will be displayed on the home page of your site.  Pick a name that makes sense and type it as you want it to be show (No need to add hyphens or underscore here).  An example of what this line will look like is: 
+- "title"  This is the title of your exhibit as it will be displayed on the home page of your site.  Pick a name that makes sense and type it as you want it to be shown (No need to add hyphens or underscore here).  An example of what this line will look like is: 
      - title: My Amazing Demo Exhibit
 
 - "tagline"  This is the short line of text that will appear at the top of some pages on your site.  An example of what this line will look like is:
@@ -74,12 +74,12 @@ Site Level Settings
 
 Collection Setting
 
-- "metadata"  This is where you let Collection Builder know the name of the file containing your metadata (use the name of the file without the .csv at the end).  An example of what this line will look like is: 
+- "metadata"  This is where you let Collection Builder know the name of the file containing your metadata **(use the name of the file without the .csv at the end)**.  An example of what this line will look like is: 
      - metadata: metadatafilename
 
 Once you are happy with all of the changes you have made, click on the green "Commit Changes" button at the bottom of the page.
 
-And thats all of the top level site settings!  If you want you can add google analytics to your exibit by entering you google analytics ID but other than that you can leave everything else as it is.
+And thats all of the top level site settings!
 
 ---
 
